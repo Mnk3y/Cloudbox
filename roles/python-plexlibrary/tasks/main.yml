@@ -17,7 +17,7 @@
   git:
     repo: "https://github.com/adamgot/python-plexlibrary.git"
     dest: "/opt/python-plexlibrary"
-    version: master
+    version: plex-movie-agent
     force: yes
   become: yes
   become_user: "{{ user.name }}"
